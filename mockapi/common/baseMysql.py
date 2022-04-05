@@ -23,7 +23,7 @@ class OprationMysql():
         执行sql语句
         :param sql: 编写查询执行的sql语句
         :param params: 传入sql中的参数
-        :return: 无
+        :return: 无vv
         '''
         # self.conten()
         print(sql, params)
