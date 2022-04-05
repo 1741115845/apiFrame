@@ -1,0 +1,81 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_user002",
+    "children" : [ {
+      "name" : "Test_user",
+      "children" : [ {
+        "name" : "test_user[data0]",
+        "uid" : "e301bcfad1508f4e",
+        "parentUid" : "1281c471ebe83604245915114b17fc3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648715978379,
+          "stop" : 1648715978927,
+          "duration" : 548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 12,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'用例编号': 'test001', '用例名称': '根据用户名称和用户编号查询', '请求地址': 'http://192.168.0.59:5001/get', '请求方法': 'get', '请求参数': 'test001', '预期结果': '\"message\": \"查询成功\"', '前置条件': '', '是否用例执行': 'y', '响应状态码': 200.0, '写入文件内容': '', '请求体类型': ''}" ]
+      }, {
+        "name" : "test_user[data1]",
+        "uid" : "235c56fbd57cb3ec",
+        "parentUid" : "1281c471ebe83604245915114b17fc3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648715978932,
+          "stop" : 1648715979058,
+          "duration" : 126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 12,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'用例编号': 'test002', '用例名称': '新增用户', '请求地址': 'http://192.168.0.59:5001/post/insert', '请求方法': 'post', '请求参数': 'test002', '预期结果': '\"message\": \"新增成功\"', '前置条件': '', '是否用例执行': 'y', '响应状态码': 200.0, '写入文件内容': 'data,id', '请求体类型': 'json'}" ]
+      }, {
+        "name" : "test_user[data2]",
+        "uid" : "7e36a4b287f2863a",
+        "parentUid" : "1281c471ebe83604245915114b17fc3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648715979063,
+          "stop" : 1648715979261,
+          "duration" : 198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 12,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'用例编号': 'test003', '用例名称': '修改用户信息', '请求地址': 'http://192.168.0.59:5001/post/update', '请求方法': 'post', '请求参数': 'test003', '预期结果': '更新成功', '前置条件': 'test002', '是否用例执行': 'y', '响应状态码': 200.0, '写入文件内容': '', '请求体类型': 'form'}" ]
+      }, {
+        "name" : "test_user[data3]",
+        "uid" : "83814005205a7eb1",
+        "parentUid" : "1281c471ebe83604245915114b17fc3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648715979266,
+          "stop" : 1648715979440,
+          "duration" : 174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 12,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'用例编号': 'test004', '用例名称': '删除用户信息', '请求地址': 'http://192.168.0.59:5001/delete', '请求方法': 'delete', '请求参数': 'test004', '预期结果': '\"meassge\": \"删除成功\"', '前置条件': 'test002', '是否用例执行': 'y', '响应状态码': 200.0, '写入文件内容': '', '请求体类型': 'form'}" ]
+      } ],
+      "uid" : "1281c471ebe83604245915114b17fc3c"
+    } ],
+    "uid" : "945ed36aee58f5e907066e139ebe56fa"
+  } ]
+}

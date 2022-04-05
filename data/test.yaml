@@ -1,0 +1,10 @@
+#请求post接口，读取yaml文件数据
+url: http://192.168.0.59:5000/post
+method: post
+data: {"name":"dyy","age":18,"datas":[{"school":1},{"school":2}]}
+expect: {"code": 200,"message": "请求成功"}
+---
+url: http://192.168.0.59:5000/post
+method: post
+data: {"name":"dyy01","age":18,"datas":[{"school":1},{"school":2}]}
+expect: {"code": 200,"message": "dyy01请求成功"}

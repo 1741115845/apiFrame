@@ -1,0 +1,61 @@
+{
+  "uid" : "f822e3db0319e182",
+  "name" : "test_user[data1]",
+  "fullName" : "test_user002.Test_user#test_user",
+  "historyId" : "078fc3b3b36e6da29459632b4671e98e",
+  "time" : {
+    "start" : 1648714806264,
+    "stop" : 1648714806334,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "验证无feature的效果"
+  }, {
+    "name" : "suite",
+    "value" : "test_user002"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_user"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VSUNCDH"
+  }, {
+    "name" : "thread",
+    "value" : "11956-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_user002"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'用例编号': 'test002', '用例名称': '新增用户', '请求地址': 'http://192.168.0.59:5001/post/insert', '请求方法': 'post', '请求参数': 'test002', '预期结果': '\"message\": \"新增成功\"', '前置条件': '', '是否用例执行': 'y', '响应状态码': 200.0, '写入文件内容': 'data,id', '请求体类型': 'json'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f822e3db0319e182.json",
+  "parameterValues" : [ "{'用例编号': 'test002', '用例名称': '新增用户', '请求地址': 'http://192.168.0.59:5001/post/insert', '请求方法': 'post', '请求参数': 'test002', '预期结果': '\"message\": \"新增成功\"', '前置条件': '', '是否用例执行': 'y', '响应状态码': 200.0, '写入文件内容': 'data,id', '请求体类型': 'json'}" ]
+}

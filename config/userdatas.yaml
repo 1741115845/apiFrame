@@ -1,0 +1,8 @@
+test001: {"name":"dyy05","account":"dyy05"}
+
+test002: {"name":"dyy","account":"001","phone":"","email":""}
+
+test003: {"name":"dyy修改","id":"{userID}"}
+
+test004: {"id":"{userID}"}
+

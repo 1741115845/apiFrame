@@ -1,0 +1,64 @@
+{
+  "uid" : "1b132a6052b87f97",
+  "name" : "test_user[data0]",
+  "fullName" : "test_user002.Test_user#test_user",
+  "historyId" : "343334ce63449e03abed407d3e6155cf",
+  "time" : {
+    "start" : 1648714910650,
+    "stop" : 1648714911226,
+    "duration" : 576
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户的测试类执行"
+  }, {
+    "name" : "story",
+    "value" : "用户表增删改查接口执行"
+  }, {
+    "name" : "suite",
+    "value" : "test_user002"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_user"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VSUNCDH"
+  }, {
+    "name" : "thread",
+    "value" : "14820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_user002"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'用例编号': 'test001', '用例名称': '根据用户名称和用户编号查询', '请求地址': 'http://192.168.0.59:5001/get', '请求方法': 'get', '请求参数': 'test001', '预期结果': '\"message\": \"查询成功\"', '前置条件': '', '是否用例执行': 'y', '响应状态码': 200.0, '写入文件内容': '', '请求体类型': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b132a6052b87f97.json",
+  "parameterValues" : [ "{'用例编号': 'test001', '用例名称': '根据用户名称和用户编号查询', '请求地址': 'http://192.168.0.59:5001/get', '请求方法': 'get', '请求参数': 'test001', '预期结果': '\"message\": \"查询成功\"', '前置条件': '', '是否用例执行': 'y', '响应状态码': 200.0, '写入文件内容': '', '请求体类型': ''}" ]
+}

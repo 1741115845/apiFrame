@@ -1,0 +1,190 @@
+{
+  "uid" : "e301bcfad1508f4e",
+  "name" : "test_user[data0]",
+  "fullName" : "test_user002.Test_user#test_user",
+  "historyId" : "343334ce63449e03abed407d3e6155cf",
+  "time" : {
+    "start" : 1648715978379,
+    "stop" : 1648715978927,
+    "duration" : 548
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "方法内的操作步骤描述：执行前置用例",
+      "time" : {
+        "start" : 1648715978379,
+        "stop" : 1648715978379,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户的测试类执行"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "用户表增删改查接口执行"
+  }, {
+    "name" : "suite",
+    "value" : "test_user002"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_user"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VSUNCDH"
+  }, {
+    "name" : "thread",
+    "value" : "15644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_user002"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'用例编号': 'test001', '用例名称': '根据用户名称和用户编号查询', '请求地址': 'http://192.168.0.59:5001/get', '请求方法': 'get', '请求参数': 'test001', '预期结果': '\"message\": \"查询成功\"', '前置条件': '', '是否用例执行': 'y', '响应状态码': 200.0, '写入文件内容': '', '请求体类型': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "73713a1d47337de9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648715378559,
+        "stop" : 1648715379610,
+        "duration" : 1051
+      }
+    }, {
+      "uid" : "828244e28486b723",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648715099935,
+        "stop" : 1648715100487,
+        "duration" : 552
+      }
+    }, {
+      "uid" : "ac7625a9d960e722",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648715048447,
+        "stop" : 1648715048509,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "a0c50b8df24dbe73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648715007363,
+        "stop" : 1648715007920,
+        "duration" : 557
+      }
+    }, {
+      "uid" : "1b132a6052b87f97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648714910650,
+        "stop" : 1648714911226,
+        "duration" : 576
+      }
+    }, {
+      "uid" : "1bfd1d1aca88d702",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648714806198,
+        "stop" : 1648714806257,
+        "duration" : 59
+      }
+    }, {
+      "uid" : "475b739e480b9b4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648714753411,
+        "stop" : 1648714753965,
+        "duration" : 554
+      }
+    }, {
+      "uid" : "6e629181c57612a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648711094039,
+        "stop" : 1648711094096,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "991d498b872eafbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648711033563,
+        "stop" : 1648711034126,
+        "duration" : 563
+      }
+    }, {
+      "uid" : "62b644d69b4d5f45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648710985073,
+        "stop" : 1648710985630,
+        "duration" : 557
+      }
+    }, {
+      "uid" : "8171e1e4dfbc4ea0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648710490699,
+        "stop" : 1648710490872,
+        "duration" : 173
+      }
+    }, {
+      "uid" : "fd1ba5d7505afbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648710012795,
+        "stop" : 1648710013349,
+        "duration" : 554
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e301bcfad1508f4e.json",
+  "parameterValues" : [ "{'用例编号': 'test001', '用例名称': '根据用户名称和用户编号查询', '请求地址': 'http://192.168.0.59:5001/get', '请求方法': 'get', '请求参数': 'test001', '预期结果': '\"message\": \"查询成功\"', '前置条件': '', '是否用例执行': 'y', '响应状态码': 200.0, '写入文件内容': '', '请求体类型': ''}" ]
+}
