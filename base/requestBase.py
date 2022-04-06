@@ -1,9 +1,7 @@
 import requests
 
 class Request():
-    '''
-    这个是dev分支的备注
-    '''
+    '''这个是dev分支写的代码'''
     def request(self,url,method,**kwargs):
         if method=='get':
             return requests.request(url=url,method='get',**kwargs)
